@@ -1,0 +1,10 @@
+# Raspberry Pi - Plant Disease Detection dependencies
+#
+# tflite-runtime is a lightweight interpreter-only package. If it is not
+# available for your Pi's architecture/Python version, install the full
+# tensorflow package instead and change the import in disease_detection.py
+# to `import tensorflow.lite as tflite`.
+
+tflite-runtime
+opencv-python
+numpy
