@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Arduino IDE
+*.hex
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large/private model & data files (add back explicitly if you choose to include them)
+*.tflite
+test_img/
